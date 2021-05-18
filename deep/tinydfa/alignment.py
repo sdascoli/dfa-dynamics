@@ -83,7 +83,7 @@ class AlignmentMeasurement:
         self.dfa_gradients = {}
         self.bp_gradients = {}
 
-        if return_deviation:
+        if return_difference:
             difference = None
         else:
             difference = grads_bp - grads_dfa
